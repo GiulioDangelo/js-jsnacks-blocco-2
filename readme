@@ -1,0 +1,23 @@
+1) snack 1.5:
+Crea un array vuoto.
+Chiedi per 6 volte all’utente di inserire un numero,
+se è dispari inseriscilo nell’array.
+2) snack 2.2
+Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi e una lista di cognomi, e da queste vuole generare una falsa lista di invitati con nome e cognome.
+3) snack 2.3
+Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
