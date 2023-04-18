@@ -1,13 +1,13 @@
-const firstName = ["giulio", "marco", "francesco", "pippo"];
-const lastName = ["fdds", "svzxcv", "dfds", "dsafwedxv"];
+const firstName = ["giulio", "marco", "francesco", "pippo","renato"];
+const lastName = ["fdds", "svzxcv", "dfds", "dsafwedxv","rossi"];
 
-let randomLastName = Math.floor(Math.random() * (lastName.length - 1)) + 1;
-let randomName = Math.floor(Math.random() * (firstName.length - 1)) + 1;
-
-const generator = firstName[randomName] + ' ' + lastName[randomLastName];
-let list = []
+let list = [];
 
 for (let i = 0; i < 15; i++) {
-    list.push(generator) 
+	let randomLastName = Math.floor(Math.random() * (lastName.length - 1)) + 1;
+	let randomName = Math.floor(Math.random() * (firstName.length - 1)) + 1;
+	const generator = firstName[randomName] + " " + lastName[randomLastName];
+	list.push(generator);
 }
-console.log(list)
+
+console.log(list);
