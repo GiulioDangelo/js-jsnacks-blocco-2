@@ -1,17 +1,10 @@
-const number = [
-	parseInt(prompt("inserisci un numero")),
-	parseInt(prompt("inserisci un numero")),
-    parseInt(prompt("inserisci un numero")),
-	parseInt(prompt("inserisci un numero")),
-    parseInt(prompt("inserisci un numero")),
-	parseInt(prompt("inserisci un numero")),
-];
-
 const odds = [];
 
-for (let i = 0; i < number.length; i++) {
-	if (number[i] % 2 === 1) {
-		odds.push(number[i]);
+for (let i = 0; i < 6; i++) {
+	const number = parseInt(prompt("inserisci un numero"))
+		
+	if (number % 2 === 1) {
+		odds.push(number);
 	}
 }
 
